@@ -85,13 +85,6 @@ The festive season is here, and we want to create a simple card game of chance t
 - **Extending for More Players or Features:**
   - Explaining how the code could be extended to handle more players or additional features.
 
-#### API Documentation:
-
-- **Documenting the API:**
-  - Highlighting the importance of clear and concise API documentation.
-- **Importance of Clear and Concise Documentation:**
-  - Discussing the significance of well-documented APIs for a positive developer experience.
-
 #### Handling Edge Cases:
 
 - **Addressing Edge Cases:**
@@ -110,26 +103,33 @@ This implementation showcases a well-structured and readable solution for a simp
 
 Feel free to reach out for any clarifications or additional information.
 
-
 ## Steps to Run:
 - **For CLI:**
     Open a terminal.
     Navigate to the directory containing the CLI script.
     Run the script with the following command:
-    bash
-    Copy code
+    ```bash
     python your_cli_script.py
+    ```
 
 - **For Flask API:**
     Install Flask (if not already installed) using:
+    ```bash
     pip install flask
+    ```
 
     Open a terminal.
-
     Navigate to the directory containing the Flask script.
-
     Run the Flask app with the following command:
-        python your_flask_script.py
+    ```bash
+    python your_flask_script.py
+    ```
 
     Open another terminal or use a tool like curl or Postman to make a GET request to:
-        http://127.0.0.1:5000/play_game
+    ```
+    http://127.0.0.1:5000/play_game
+    ```
+
+## Additional Notes:
+
+Major discussion points have been covered in the README file, providing insights into the design choices, implementation details, and future considerations.
